@@ -1,0 +1,20 @@
+﻿CREATE TABLE [Mitglieder] (
+  [Mitgliedsnummer] VARCHAR (10) CONSTRAINT [Mitgliedsnummer] UNIQUE CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [GruppenID] LONG CONSTRAINT [MitgliedsgruppenMitglieder] REFERENCES [Mitgliedsgruppen] ([GruppenID]) ON UPDATE CASCADE ,
+  [MitgliederTypID] LONG,
+  [Titel] VARCHAR (20),
+  [Vorname] VARCHAR (50),
+  [Name1] VARCHAR (50),
+  [Name2] VARCHAR (50),
+  [Telefon] VARCHAR (30),
+  [Email] VARCHAR (100),
+  [Beitrittsdatum] DATETIME,
+  [Status] VARCHAR (20),
+  [Ausscheidungsdatum] DATETIME,
+  [AusscheidungsgrundID] LONG,
+  [Kündigungsdatum] DATETIME,
+  [Kündigungswirksam_ab] DATETIME,
+  [FusionÜbernehmer_Name] VARCHAR (100),
+  [FusionÜbernehmer_ID] VARCHAR (10),
+  [Beitrag_monatlich] CURRENCY
+)

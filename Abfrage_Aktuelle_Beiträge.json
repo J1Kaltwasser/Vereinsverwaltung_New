@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Abfrage_Aktuelle_Beiträge"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 658,
+        "bottom": 951
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 642,
+        "bottom": 672
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Mitgliedertypen",
+          "Alias": "",
+          "Left": 46,
+          "Top": 293,
+          "Right": 190,
+          "Bottom": 437,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitglieder",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 192,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitglied_Beiträge",
+          "Alias": "",
+          "Left": 221,
+          "Top": 154,
+          "Right": 365,
+          "Bottom": 298,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

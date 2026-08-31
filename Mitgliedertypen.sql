@@ -1,0 +1,4 @@
+﻿CREATE TABLE [Mitgliedertypen] (
+  [TypID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [Typbezeichnung] VARCHAR (20)
+)

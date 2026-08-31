@@ -1,0 +1,768 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ViewsAllowed =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10209
+    DatasheetFontHeight =11
+    ItemSuffix =33
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0xe3cba7988e94e640
+    End
+    RecordSource ="Mitglied_Adressen"
+    Caption ="Mitglied_Adressen_Form"
+    DatasheetFontName ="Calibri"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1026
+            Name ="Formularkopf"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =57
+                    Top =57
+                    Width =5022
+                    Height =969
+                    FontSize =20
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Bezeichnungsfeld32"
+                    Caption ="Mitglied_Adressen_Form"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =57
+                    LayoutCachedTop =57
+                    LayoutCachedWidth =5079
+                    LayoutCachedHeight =1026
+                End
+            End
+        End
+        Begin Section
+            Height =7581
+            Name ="Detailbereich"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =342
+                    Height =315
+                    ColumnWidth =1701
+                    TabIndex =4
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="AdressID"
+                    ControlSource ="AdressID"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =342
+                    LayoutCachedWidth =4593
+                    LayoutCachedHeight =657
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =342
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="AdressID_Bezeichnungsfeld"
+                            Caption ="AdressID"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =342
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =672
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =2337
+                    Width =3660
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =5
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Straße"
+                    ControlSource ="Straße"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =2337
+                    LayoutCachedWidth =6552
+                    LayoutCachedHeight =2667
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =2337
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Straße_Bezeichnungsfeld"
+                            Caption ="Straße"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =2337
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =2667
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =2736
+                    Width =1530
+                    Height =330
+                    ColumnWidth =1530
+                    TabIndex =6
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Hausnummer"
+                    ControlSource ="Hausnummer"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =2736
+                    LayoutCachedWidth =4422
+                    LayoutCachedHeight =3066
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =2736
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Hausnummer_Bezeichnungsfeld"
+                            Caption ="Hausnummer"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =2736
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =3066
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =3135
+                    Width =2460
+                    Height =330
+                    ColumnWidth =2460
+                    TabIndex =7
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Postfachnummer"
+                    ControlSource ="Postfachnummer"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =3135
+                    LayoutCachedWidth =5352
+                    LayoutCachedHeight =3465
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =3135
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Postfachnummer_Bezeichnungsfeld"
+                            Caption ="Postfachnummer"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =3135
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =3465
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =3534
+                    Width =1200
+                    Height =330
+                    ColumnWidth =1200
+                    TabIndex =8
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Postleitzahl"
+                    ControlSource ="Postleitzahl"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =3534
+                    LayoutCachedWidth =4092
+                    LayoutCachedHeight =3864
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =3534
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Postleitzahl_Bezeichnungsfeld"
+                            Caption ="Postleitzahl"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =3534
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =3864
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =3933
+                    Width =3660
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =9
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Ortsname"
+                    ControlSource ="Ortsname"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =3933
+                    LayoutCachedWidth =6552
+                    LayoutCachedHeight =4263
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =3933
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Ortsname_Bezeichnungsfeld"
+                            Caption ="Ortsname"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =3933
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =4263
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =4332
+                    Width =3660
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =10
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Bundesland_Region"
+                    ControlSource ="Bundesland_Region"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =4332
+                    LayoutCachedWidth =6552
+                    LayoutCachedHeight =4662
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =4332
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Bundesland_Region_Bezeichnungsfeld"
+                            Caption ="Bundesland_Region"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =4332
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =4662
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =4731
+                    Width =1620
+                    Height =330
+                    ColumnWidth =1620
+                    TabIndex =11
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="GültigAb"
+                    ControlSource ="GültigAb"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =4731
+                    LayoutCachedWidth =4512
+                    LayoutCachedHeight =5061
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =4731
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="GültigAb_Bezeichnungsfeld"
+                            Caption ="GültigAb"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =4731
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =5061
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =5130
+                    Width =1620
+                    Height =330
+                    ColumnWidth =1620
+                    TabIndex =12
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="GültigBis"
+                    ControlSource ="GültigBis"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =5130
+                    LayoutCachedWidth =4512
+                    LayoutCachedHeight =5460
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =5130
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="GültigBis_Bezeichnungsfeld"
+                            Caption ="GültigBis"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =5130
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =5460
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =5529
+                    Width =1620
+                    Height =330
+                    ColumnWidth =1620
+                    TabIndex =13
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ÄnderungsDatum"
+                    ControlSource ="ÄnderungsDatum"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =5529
+                    LayoutCachedWidth =4512
+                    LayoutCachedHeight =5859
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =5529
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="ÄnderungsDatum_Bezeichnungsfeld"
+                            Caption ="ÄnderungsDatum"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =5529
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =5859
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =5928
+                    Width =3660
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =14
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ÄnderungsBenutzer"
+                    ControlSource ="ÄnderungsBenutzer"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =5928
+                    LayoutCachedWidth =6552
+                    LayoutCachedHeight =6258
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =5928
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="ÄnderungsBenutzer_Bezeichnungsfeld"
+                            Caption ="ÄnderungsBenutzer"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =5928
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =6258
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =6327
+                    Width =7260
+                    Height =1140
+                    ColumnWidth =3000
+                    TabIndex =15
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Bemerkung"
+                    ControlSource ="Bemerkung"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =6327
+                    LayoutCachedWidth =10152
+                    LayoutCachedHeight =7467
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =6327
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Bemerkung_Bezeichnungsfeld"
+                            Caption ="Bemerkung"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =6327
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =6657
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =2892
+                    Top =741
+                    Width =1530
+                    Height =315
+                    BorderColor =10921638
+                    Name ="Mitgliedsnummer"
+                    ControlSource ="Mitgliedsnummer"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [Mitgliedsnummer], [Name1] FROM Mitglieder; "
+                    ColumnWidths ="1134;0"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =741
+                    LayoutCachedWidth =4422
+                    LayoutCachedHeight =1056
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =741
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Mitgliedsnummer_Bezeichnungsfeld"
+                            Caption ="Mitgliedsnummer"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =741
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =1071
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListRows =8
+                    Left =2892
+                    Top =1140
+                    Width =1530
+                    Height =315
+                    TabIndex =1
+                    BorderColor =10921638
+                    Name ="AdressTypID"
+                    ControlSource ="AdressTypID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [AdressTypID], [Typbezeichnung] FROM Adresstypen; "
+                    ColumnWidths ="0;1701"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =1140
+                    LayoutCachedWidth =4422
+                    LayoutCachedHeight =1455
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =1140
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="AdressTypID_Bezeichnungsfeld"
+                            Caption ="AdressTypID"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =1140
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =1470
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListRows =8
+                    Left =2833
+                    Top =1587
+                    Width =1530
+                    Height =315
+                    TabIndex =2
+                    BorderColor =10921638
+                    Name ="VerwendungsID"
+                    ControlSource ="VerwendungsID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [VerwendungsID], [Verwendungsbezeichnung] FROM Adressenverwendungen; "
+                    ColumnWidths ="0;2268"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2833
+                    LayoutCachedTop =1587
+                    LayoutCachedWidth =4363
+                    LayoutCachedHeight =1902
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =283
+                            Top =1587
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="VerwendungsID_Bezeichnungsfeld"
+                            Caption ="VerwendungsID"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =283
+                            LayoutCachedTop =1587
+                            LayoutCachedWidth =2743
+                            LayoutCachedHeight =1917
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListRows =8
+                    Left =2833
+                    Top =1927
+                    Width =1530
+                    Height =315
+                    TabIndex =3
+                    BorderColor =10921638
+                    Name ="LandID"
+                    ControlSource ="LandID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [LandID], [Landname] FROM Länder ORDER BY [Landname]; "
+                    ColumnWidths ="0;2268"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2833
+                    LayoutCachedTop =1927
+                    LayoutCachedWidth =4363
+                    LayoutCachedHeight =2242
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            Left =283
+                            Top =1927
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="LandID_Bezeichnungsfeld"
+                            Caption ="LandID"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =283
+                            LayoutCachedTop =1927
+                            LayoutCachedWidth =2743
+                            LayoutCachedHeight =2257
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="Formularfuß"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End

@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "Hierarchische StellungenMitglied_Ansprechpartner",
+    "Attributes": 256,
+    "Table": "Hierarchische Stellungen",
+    "ForeignTable": "Mitglied_Ansprechpartner",
+    "Fields": [
+      {
+        "Name": "StellungsID",
+        "ForeignName": "StellungsID"
+      }
+    ]
+  }
+}

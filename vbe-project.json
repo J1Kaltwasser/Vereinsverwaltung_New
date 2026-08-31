@@ -1,0 +1,17 @@
+﻿{
+  "Info": {
+    "Class": "clsDbVbeProject",
+    "Description": "VBE Project"
+  },
+  "Items": {
+    "Name": "Vereinsverwaltung_v1",
+    "Description": "",
+    "FileName": "Vereinsverwaltung_v1.03.accdb",
+    "HelpFile": "",
+    "HelpContextId": 0,
+    "ConditionalCompilationArguments": "",
+    "Mode": 0,
+    "Protection": 0,
+    "Type": 100
+  }
+}

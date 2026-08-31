@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Abfrage_Adressen_Anschreiben"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 693,
+        "bottom": 1047
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 677,
+        "bottom": 655
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Mitglieder",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 192,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Länder",
+          "Alias": "",
+          "Left": 44,
+          "Top": 289,
+          "Right": 188,
+          "Bottom": 433,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitglied_Adressen",
+          "Alias": "",
+          "Left": 246,
+          "Top": 41,
+          "Right": 390,
+          "Bottom": 185,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

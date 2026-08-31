@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "AusscheidungsgründeMitglieder",
+    "Attributes": 256,
+    "Table": "Ausscheidungsgründe",
+    "ForeignTable": "Mitglieder",
+    "Fields": [
+      {
+        "Name": "GrundID",
+        "ForeignName": "AusscheidungsgrundID"
+      }
+    ]
+  }
+}

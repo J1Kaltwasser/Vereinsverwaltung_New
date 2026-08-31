@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Abfrage_Beitragsänderungen"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 666,
+        "bottom": 1047
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 650,
+        "bottom": 768
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+        {
+          "Name": "Mitglieder",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 192,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitglied_Beiträge",
+          "Alias": "",
+          "Left": 240,
+          "Top": 12,
+          "Right": 384,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitgliedertypen",
+          "Alias": "",
+          "Left": 212,
+          "Top": 313,
+          "Right": 356,
+          "Bottom": 457,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

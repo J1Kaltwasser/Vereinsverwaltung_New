@@ -1,0 +1,485 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ViewsAllowed =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10209
+    DatasheetFontHeight =11
+    ItemSuffix =19
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0xc24550d18e94e640
+    End
+    RecordSource ="Mitglied_Beiträge"
+    Caption ="Mitglied_Beiträge_Form"
+    DatasheetFontName ="Calibri"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1026
+            Name ="Formularkopf"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =57
+                    Top =57
+                    Width =4842
+                    Height =969
+                    FontSize =20
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Bezeichnungsfeld18"
+                    Caption ="Mitglied_Beiträge_Form"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =57
+                    LayoutCachedTop =57
+                    LayoutCachedWidth =4899
+                    LayoutCachedHeight =1026
+                End
+            End
+        End
+        Begin Section
+            Height =4788
+            Name ="Detailbereich"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =342
+                    Height =315
+                    ColumnWidth =1701
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="BeitragID"
+                    ControlSource ="BeitragID"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =342
+                    LayoutCachedWidth =4593
+                    LayoutCachedHeight =657
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =342
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="BeitragID_Bezeichnungsfeld"
+                            Caption ="BeitragID"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =342
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =672
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =1140
+                    Width =1530
+                    Height =330
+                    ColumnWidth =1530
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Beitragsjahr"
+                    ControlSource ="Beitragsjahr"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =1140
+                    LayoutCachedWidth =4422
+                    LayoutCachedHeight =1470
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =1140
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Beitragsjahr_Bezeichnungsfeld"
+                            Caption ="Beitragsjahr"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =1140
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =1470
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =1539
+                    Width =3660
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =3
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Betrag"
+                    ControlSource ="Betrag"
+                    Format ="#,##0.00 €;-#,##0.00 €"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =1539
+                    LayoutCachedWidth =6552
+                    LayoutCachedHeight =1869
+                    CurrencySymbol ="€"
+                    ColLCID =1031
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =1539
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Betrag_Bezeichnungsfeld"
+                            Caption ="Betrag"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =1539
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =1869
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =1938
+                    Width =1620
+                    Height =330
+                    ColumnWidth =1620
+                    TabIndex =4
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="GültigAb"
+                    ControlSource ="GültigAb"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =1938
+                    LayoutCachedWidth =4512
+                    LayoutCachedHeight =2268
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =1938
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="GültigAb_Bezeichnungsfeld"
+                            Caption ="GültigAb"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =1938
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =2268
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =2337
+                    Width =1620
+                    Height =330
+                    ColumnWidth =1620
+                    TabIndex =5
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="GültigBis"
+                    ControlSource ="GültigBis"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =2337
+                    LayoutCachedWidth =4512
+                    LayoutCachedHeight =2667
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =2337
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="GültigBis_Bezeichnungsfeld"
+                            Caption ="GültigBis"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =2337
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =2667
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =2736
+                    Width =1620
+                    Height =330
+                    ColumnWidth =1620
+                    TabIndex =6
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ÄnderungsDatum"
+                    ControlSource ="ÄnderungsDatum"
+                    Format ="Short Date"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =2736
+                    LayoutCachedWidth =4512
+                    LayoutCachedHeight =3066
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =2736
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="ÄnderungsDatum_Bezeichnungsfeld"
+                            Caption ="ÄnderungsDatum"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =2736
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =3066
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =3135
+                    Width =3660
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =7
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ÄnderungsBenutzer"
+                    ControlSource ="ÄnderungsBenutzer"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =3135
+                    LayoutCachedWidth =6552
+                    LayoutCachedHeight =3465
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =3135
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="ÄnderungsBenutzer_Bezeichnungsfeld"
+                            Caption ="ÄnderungsBenutzer"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =3135
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =3465
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2892
+                    Top =3534
+                    Width =7260
+                    Height =1140
+                    ColumnWidth =3000
+                    TabIndex =8
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Bemerkung"
+                    ControlSource ="Bemerkung"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =3534
+                    LayoutCachedWidth =10152
+                    LayoutCachedHeight =4674
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =3534
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Bemerkung_Bezeichnungsfeld"
+                            Caption ="Bemerkung"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =3534
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =3864
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =2892
+                    Top =741
+                    Width =1530
+                    Height =315
+                    BorderColor =10921638
+                    Name ="Mitgliedsnummer"
+                    ControlSource ="Mitgliedsnummer"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Mitgliedsnummer, Name1 FROM Mitglieder; "
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2892
+                    LayoutCachedTop =741
+                    LayoutCachedWidth =4422
+                    LayoutCachedHeight =1056
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =342
+                            Top =741
+                            Width =2460
+                            Height =330
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Mitgliedsnummer_Bezeichnungsfeld"
+                            Caption ="Mitgliedsnummer"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =342
+                            LayoutCachedTop =741
+                            LayoutCachedWidth =2802
+                            LayoutCachedHeight =1071
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="Formularfuß"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End

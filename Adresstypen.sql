@@ -1,0 +1,4 @@
+﻿CREATE TABLE [Adresstypen] (
+  [AdressTypID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [Typbezeichnung] VARCHAR (30)
+)

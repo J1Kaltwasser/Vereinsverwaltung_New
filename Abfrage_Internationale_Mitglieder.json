@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Abfrage_Internationale_Mitglieder"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1232,
+        "bottom": 769
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1216,
+        "bottom": 602
+      },
+      "GridLeft": 96,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Mitglieder",
+          "Alias": "",
+          "Left": 48,
+          "Top": -84,
+          "Right": 192,
+          "Bottom": 60,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Länder",
+          "Alias": "",
+          "Left": 45,
+          "Top": 193,
+          "Right": 189,
+          "Bottom": 337,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitglied_Adressen",
+          "Alias": "",
+          "Left": 237,
+          "Top": 60,
+          "Right": 381,
+          "Bottom": 204,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

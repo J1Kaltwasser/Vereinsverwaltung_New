@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Abfrage_Aktive_Mitglieder"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 657,
+        "bottom": 951
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 641,
+        "bottom": 553
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Mitgliedsgruppen",
+          "Alias": "",
+          "Left": 462,
+          "Top": 87,
+          "Right": 606,
+          "Bottom": 231,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitgliedertypen",
+          "Alias": "",
+          "Left": 30,
+          "Top": 353,
+          "Right": 174,
+          "Bottom": 497,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitglieder",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 192,
+          "Bottom": 156,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

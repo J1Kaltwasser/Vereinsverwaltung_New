@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Abfrage_Hauptansprechpartner"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 665,
+        "bottom": 951
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 649,
+        "bottom": 672
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Mitglieder",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 192,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Mitglied_Ansprechpartner",
+          "Alias": "",
+          "Left": 51,
+          "Top": 304,
+          "Right": 195,
+          "Bottom": 448,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Hierarchische Stellungen",
+          "Alias": "",
+          "Left": 62,
+          "Top": 514,
+          "Right": 206,
+          "Bottom": 658,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

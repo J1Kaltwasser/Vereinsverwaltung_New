@@ -1,0 +1,44 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qry_Aktive_Mitglieder"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "m.Created_Date": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1228,
+        "bottom": 673
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1212,
+        "bottom": 271
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "m",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 192,
+          "Bottom": 156,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

@@ -37,7 +37,7 @@
       "Type": 3
     },
     "Name": {
-      "Value": "rel:Vereinsverwaltung_v1.03.accdb",
+      "Value": "rel:Vereinsverwaltung.accdb",
       "Type": 12
     },
     "NavPane Category": {
@@ -57,7 +57,7 @@
       "Type": 4
     },
     "NavPane Width": {
-      "Value": 201,
+      "Value": 200,
       "Type": 4
     },
     "Never Cache": {
